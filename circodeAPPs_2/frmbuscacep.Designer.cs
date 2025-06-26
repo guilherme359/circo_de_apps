@@ -71,10 +71,13 @@
             // 
             // txtcep
             // 
+            txtcep.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
             txtcep.Location = new Point(12, 47);
+            txtcep.MaxLength = 8;
             txtcep.Name = "txtcep";
-            txtcep.Size = new Size(281, 23);
+            txtcep.Size = new Size(281, 25);
             txtcep.TabIndex = 2;
+            txtcep.KeyPress += txtcep_KeyPress;
             // 
             // btnfechar
             // 

@@ -8,8 +8,15 @@ namespace circideapps
             frmsplash splash = new frmsplash();
             splash.Show();
             Application.DoEvents();
-            Thread.Sleep(3000);
+            Thread.Sleep(1500);
             splash.Close();
+
+            InitializeComponent();
+            frmsplash2 splash2 = new frmsplash2();
+            splash2.Show();
+            Application.DoEvents();
+            Thread.Sleep(1500);
+            splash2.Close();
         }
 
 
@@ -20,9 +27,31 @@ namespace circideapps
 
         private void pbxbuscacep_Click(object sender, EventArgs e)
         {
+            foreach (Form formAberto in Application.OpenForms)
+            {
+                if (formAberto is frmbuscacep)
+                {
+                    formAberto.Focus();
+                    return;
+                }
+            }
             frmbuscacep frmbuscacep = new frmbuscacep();
             frmbuscacep.Show();
 
+        }
+
+        private void pbxclima_Click(object sender, EventArgs e)
+        {
+            foreach (Form formAberto in Application.OpenForms)
+            {
+                if (formAberto is frmclima)
+                {
+                    formAberto.Focus();
+                    return;
+                }
+            }
+            frmclima clima = new frmclima();
+            clima.Show();
         }
     }
 }

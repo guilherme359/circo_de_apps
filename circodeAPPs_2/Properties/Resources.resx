@@ -127,25 +127,34 @@
   <data name="coin_toss" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\coin-toss.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="gatofei" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gatofei.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="calculator1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\calculator1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="emergency-exit" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\emergency-exit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="travel" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\travel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="sheet" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sheet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="marquee" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\marquee.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="sheet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sheet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="travel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\travel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imagesgatoverde" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imagesgatoverde.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="weather-news" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\weather-news.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="gatofei" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\gatofei.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="emergency-exit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emergency-exit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gato verde" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gato verde.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sky_italia_2018" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sky_italia_2018.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

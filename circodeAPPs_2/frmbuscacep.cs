@@ -27,6 +27,17 @@ namespace circideapps
 
         private void btnpesquisar_Click(object sender, EventArgs e)
         {
+            String cep = txtcep.Text.Trim();
+            if (cep.Length > 8 || cep.Length < 8)
+            {
+                MessageBox.Show("CEP invalido!", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txtcep.Text = string.Empty;
+                this.ActiveControl = txtcep;
+                return;
+
+            }
+
+
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create("https://viacep.com.br/ws/" + txtcep.Text + "/json");
             request.AllowAutoRedirect = false;
             HttpWebResponse ChecaServidor = (HttpWebResponse)request.GetResponse();
@@ -50,12 +61,16 @@ namespace circideapps
                         {
                             if (cont == 1)
                             {
-                                string[] valor = substring.Split(":".ToCharArray());
-                                if (valor[0] == "erro")
+                                if (substring.Contains(":"))
                                 {
-                                    txtcep.Text = string.Empty;
-                                    txtcep.Focus();
-                                    return;
+                                    string[] valor = substring.Split(":".ToCharArray());
+                                    if (valor.Length >= 2 && valor[0].Trim().Replace("\"", "") == "erro")
+                                    {
+                                        MessageBox.Show("CEP não encontrado!");
+                                        txtcep.Text = string.Empty;
+                                        txtcep.Focus();
+                                        return;
+                                    }
                                 }
                             }
                             if (cont == 2)
@@ -87,6 +102,15 @@ namespace circideapps
                         }
                     }
                 }
+            }
+        }
+
+        private void txtcep_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+            {
+                e.Handled = true;
+                MessageBox.Show("Este campo aceita apenas números");
             }
         }
     }

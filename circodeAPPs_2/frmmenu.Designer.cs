@@ -114,6 +114,7 @@
             pbxclima.SizeMode = PictureBoxSizeMode.Zoom;
             pbxclima.TabIndex = 4;
             pbxclima.TabStop = false;
+            pbxclima.Click += pbxclima_Click;
             // 
             // label4
             // 
@@ -141,7 +142,7 @@
             label6.AutoSize = true;
             label6.Font = new Font("Microsoft Sans Serif", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
             label6.ForeColor = Color.Red;
-            label6.Location = new Point(774, 608);
+            label6.Location = new Point(779, 613);
             label6.Name = "label6";
             label6.Size = new Size(56, 24);
             label6.TabIndex = 13;
@@ -150,7 +151,7 @@
             // pbxfechar
             // 
             pbxfechar.Image = Properties.Resources.emergency_exit;
-            pbxfechar.Location = new Point(675, 326);
+            pbxfechar.Location = new Point(680, 331);
             pbxfechar.Name = "pbxfechar";
             pbxfechar.Size = new Size(248, 279);
             pbxfechar.SizeMode = PictureBoxSizeMode.Zoom;
@@ -163,7 +164,7 @@
             label7.AutoSize = true;
             label7.Font = new Font("Microsoft Sans Serif", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
             label7.ForeColor = Color.MidnightBlue;
-            label7.Location = new Point(482, 608);
+            label7.Location = new Point(492, 613);
             label7.Name = "label7";
             label7.Size = new Size(89, 24);
             label7.TabIndex = 11;
@@ -172,7 +173,7 @@
             // pbxdestino
             // 
             pbxdestino.Image = Properties.Resources.travel;
-            pbxdestino.Location = new Point(407, 326);
+            pbxdestino.Location = new Point(417, 331);
             pbxdestino.Name = "pbxdestino";
             pbxdestino.Size = new Size(248, 279);
             pbxdestino.SizeMode = PictureBoxSizeMode.Zoom;
@@ -184,7 +185,7 @@
             label8.AutoSize = true;
             label8.Font = new Font("Microsoft Sans Serif", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
             label8.ForeColor = Color.MidnightBlue;
-            label8.Location = new Point(175, 608);
+            label8.Location = new Point(185, 613);
             label8.Name = "label8";
             label8.Size = new Size(182, 24);
             label8.TabIndex = 9;
@@ -193,7 +194,7 @@
             // pbxcaracoroa
             // 
             pbxcaracoroa.Image = Properties.Resources.coin_toss;
-            pbxcaracoroa.Location = new Point(143, 326);
+            pbxcaracoroa.Location = new Point(153, 331);
             pbxcaracoroa.Name = "pbxcaracoroa";
             pbxcaracoroa.Size = new Size(248, 279);
             pbxcaracoroa.SizeMode = PictureBoxSizeMode.Zoom;

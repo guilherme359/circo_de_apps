@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace circideapps
 {
-    public partial class frmsplash : Form
+    public partial class frmsplash2 : Form
     {
-        public frmsplash()
+        public frmsplash2()
         {
             InitializeComponent();
-        }
-
-        private void frmsplash_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

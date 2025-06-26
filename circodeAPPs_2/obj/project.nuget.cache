@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "P3DWs95akIc6aiWeBSEs9AaDqSrDvVb+1NWqpNtn6mRmDqt6NM2lucXsei2qCoWJtS96Lg9BOBEWs5Sz85fWwA==",
+  "dgSpecHash": "r7FTIwxVb4S+wkiQqce9Rn1/Kb8ZJPu4fQAK40WrXur0cuOBat7JZ4+rUu87poBFlmCvM+vyK+ePTUCeHsWdpg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Aluno\\Downloads\\circo_de_apps-main\\circideapps\\circideapps.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Aluno\\Downloads\\circo_de_apps-main\\circodeAPPs_2\\circideapps.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Aluno\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

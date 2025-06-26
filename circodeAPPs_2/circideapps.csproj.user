@@ -25,5 +25,8 @@
     <Compile Update="frmsplash.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="frmsplash2.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

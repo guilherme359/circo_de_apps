@@ -103,9 +103,29 @@ namespace circideapps.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap gato_verde {
+            get {
+                object obj = ResourceManager.GetObject("gato verde", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap gatofei {
             get {
                 object obj = ResourceManager.GetObject("gatofei", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap imagesgatoverde {
+            get {
+                object obj = ResourceManager.GetObject("imagesgatoverde", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -136,6 +156,16 @@ namespace circideapps.Properties {
         internal static System.Drawing.Bitmap sheet {
             get {
                 object obj = ResourceManager.GetObject("sheet", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Sky_italia_2018 {
+            get {
+                object obj = ResourceManager.GetObject("Sky_italia_2018", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
