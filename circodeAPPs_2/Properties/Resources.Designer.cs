@@ -73,9 +73,29 @@ namespace circideapps.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cara {
+            get {
+                object obj = ResourceManager.GetObject("cara", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap coin_toss {
             get {
                 object obj = ResourceManager.GetObject("coin_toss", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap coroa {
+            get {
+                object obj = ResourceManager.GetObject("coroa", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -166,6 +186,16 @@ namespace circideapps.Properties {
         internal static System.Drawing.Bitmap Sky_italia_2018 {
             get {
                 object obj = ResourceManager.GetObject("Sky_italia_2018", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tigrozo {
+            get {
+                object obj = ResourceManager.GetObject("tigrozo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

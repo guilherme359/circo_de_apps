@@ -53,5 +53,33 @@ namespace circideapps
             frmclima clima = new frmclima();
             clima.Show();
         }
+
+        private void pbxcaracoroa_Click(object sender, EventArgs e)
+        {
+            foreach (Form formAberto in Application.OpenForms)
+            {
+                if (formAberto is frmcaracoroa)
+                {
+                    formAberto.Focus();
+                    return;
+                }
+            }
+            frmcaracoroa caracoroa = new frmcaracoroa();
+            caracoroa.Show();
+        }
+
+        private void pbxcpf_Click(object sender, EventArgs e)
+        {
+            foreach (Form formAberto in Application.OpenForms)
+            {
+                if (formAberto is frmcpf)
+                {
+                    formAberto.Focus();
+                    return;
+                }
+            }
+            frmcpf cpf = new frmcpf();
+            cpf.Show();
+        }
     }
 }

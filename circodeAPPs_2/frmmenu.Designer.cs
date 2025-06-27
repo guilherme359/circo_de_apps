@@ -53,6 +53,7 @@
             // 
             // pbxcalculadora
             // 
+            pbxcalculadora.BackColor = Color.Transparent;
             pbxcalculadora.Image = Properties.Resources.calculator1;
             pbxcalculadora.Location = new Point(12, 12);
             pbxcalculadora.Name = "pbxcalculadora";
@@ -64,6 +65,7 @@
             // label1
             // 
             label1.AutoSize = true;
+            label1.BackColor = Color.Transparent;
             label1.Font = new Font("Microsoft Sans Serif", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
             label1.ForeColor = Color.MidnightBlue;
             label1.Location = new Point(56, 294);
@@ -75,6 +77,7 @@
             // label2
             // 
             label2.AutoSize = true;
+            label2.BackColor = Color.Transparent;
             label2.Font = new Font("Microsoft Sans Serif", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
             label2.ForeColor = Color.MidnightBlue;
             label2.Location = new Point(339, 294);
@@ -85,6 +88,7 @@
             // 
             // pbxbuscacep
             // 
+            pbxbuscacep.BackColor = Color.Transparent;
             pbxbuscacep.Image = Properties.Resources.mailbox;
             pbxbuscacep.Location = new Point(276, 12);
             pbxbuscacep.Name = "pbxbuscacep";
@@ -97,6 +101,7 @@
             // label3
             // 
             label3.AutoSize = true;
+            label3.BackColor = Color.Transparent;
             label3.Font = new Font("Microsoft Sans Serif", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
             label3.ForeColor = Color.MidnightBlue;
             label3.Location = new Point(626, 294);
@@ -107,6 +112,7 @@
             // 
             // pbxclima
             // 
+            pbxclima.BackColor = Color.Transparent;
             pbxclima.Image = Properties.Resources.weather_news;
             pbxclima.Location = new Point(544, 12);
             pbxclima.Name = "pbxclima";
@@ -119,6 +125,7 @@
             // label4
             // 
             label4.AutoSize = true;
+            label4.BackColor = Color.Transparent;
             label4.Font = new Font("Microsoft Sans Serif", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
             label4.ForeColor = Color.MidnightBlue;
             label4.Location = new Point(879, 294);
@@ -129,6 +136,7 @@
             // 
             // pbxcpf
             // 
+            pbxcpf.BackColor = Color.Transparent;
             pbxcpf.Image = Properties.Resources.sheet;
             pbxcpf.Location = new Point(808, 12);
             pbxcpf.Name = "pbxcpf";
@@ -136,10 +144,12 @@
             pbxcpf.SizeMode = PictureBoxSizeMode.Zoom;
             pbxcpf.TabIndex = 6;
             pbxcpf.TabStop = false;
+            pbxcpf.Click += pbxcpf_Click;
             // 
             // label6
             // 
             label6.AutoSize = true;
+            label6.BackColor = Color.Transparent;
             label6.Font = new Font("Microsoft Sans Serif", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
             label6.ForeColor = Color.Red;
             label6.Location = new Point(779, 613);
@@ -150,6 +160,7 @@
             // 
             // pbxfechar
             // 
+            pbxfechar.BackColor = Color.Transparent;
             pbxfechar.Image = Properties.Resources.emergency_exit;
             pbxfechar.Location = new Point(680, 331);
             pbxfechar.Name = "pbxfechar";
@@ -162,6 +173,7 @@
             // label7
             // 
             label7.AutoSize = true;
+            label7.BackColor = Color.Transparent;
             label7.Font = new Font("Microsoft Sans Serif", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
             label7.ForeColor = Color.MidnightBlue;
             label7.Location = new Point(492, 613);
@@ -172,6 +184,7 @@
             // 
             // pbxdestino
             // 
+            pbxdestino.BackColor = Color.Transparent;
             pbxdestino.Image = Properties.Resources.travel;
             pbxdestino.Location = new Point(417, 331);
             pbxdestino.Name = "pbxdestino";
@@ -183,6 +196,7 @@
             // label8
             // 
             label8.AutoSize = true;
+            label8.BackColor = Color.Transparent;
             label8.Font = new Font("Microsoft Sans Serif", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
             label8.ForeColor = Color.MidnightBlue;
             label8.Location = new Point(185, 613);
@@ -193,6 +207,7 @@
             // 
             // pbxcaracoroa
             // 
+            pbxcaracoroa.BackColor = Color.Transparent;
             pbxcaracoroa.Image = Properties.Resources.coin_toss;
             pbxcaracoroa.Location = new Point(153, 331);
             pbxcaracoroa.Name = "pbxcaracoroa";
@@ -200,13 +215,14 @@
             pbxcaracoroa.SizeMode = PictureBoxSizeMode.Zoom;
             pbxcaracoroa.TabIndex = 8;
             pbxcaracoroa.TabStop = false;
+            pbxcaracoroa.Click += pbxcaracoroa_Click;
             // 
             // frmmenu
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            ClientSize = new Size(1068, 638);
+            ClientSize = new Size(1068, 644);
             Controls.Add(label6);
             Controls.Add(pbxfechar);
             Controls.Add(label7);
